@@ -9,10 +9,9 @@ function App() {
   return (
     <>
       <Nav />
-      App.
 
       <Switch>
-        <Route path='/' component={Home} />
+        <Route path='/' component={Home} exact />
 
         <Route path='/photos' component={Photos} exact />
       </Switch>

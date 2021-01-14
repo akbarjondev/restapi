@@ -1,4 +1,4 @@
-import { useHistory, NavLink } from 'react-router-dom'
+import { useHistory } from 'react-router-dom';
 
 function Nav() {
 
@@ -8,12 +8,10 @@ function Nav() {
 		<>
 			<ul>
 				<li>
-					<NavLink to='/'>Home</NavLink>
-					{/* <button onClick={ () => history.push('/') } to='/'>Home</button> */}
+					<button onClick={ () => history.push('/') } to='/'>Home</button>
 				</li>
 				<li>
-					<NavLink to='/photos'>Photos</NavLink>
-					{/* <button onClick={ () => history.push('/photos') } to='/photos'>Photos</button> */}
+					<button onClick={ () => history.push('/photos') } to='/photos'>Photos</button>
 				</li>
 			</ul>
 		</>
